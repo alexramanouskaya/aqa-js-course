@@ -1,0 +1,64 @@
+ //string + boolean
+ let a = "Black cat is bad luck " + false 
+ console.log (a)
+ console.log (typeof(a))
+
+//string + number
+let b = "There are " + 375 + " pages in the book"
+console.log (b)
+console.log (typeof(b))
+
+//number + boolean
+let c = 7453 + true
+let d = 111 + false
+console.log (c)
+console.log (typeof (c))
+console.log (d)
+
+//string * boolean
+let e = "Word1" * true
+console.log (e)
+console.log (typeof (e)) 
+
+// string * number
+let f = "Word2" * 27
+console.log (f) 
+
+// number * boolean
+let g = 221 * false
+console.log (g)
+console.log (typeof(g))
+
+// string/ boolean
+let h = "Word " / false
+console.log (h)
+console.log (typeof(h))
+
+
+// string/ number
+let i =  "String" / 39
+console.log (i)
+
+
+// number/ boolean
+let j = 778 / true
+console.log (j)
+
+//Явное преобразоание Number 
+
+console.log (parseInt("27 times"))
+console.log (Number("11"))
+console.log (+("2744"))
+console.log (Number(true))
+
+//Явное преобразование String
+
+console.log (String(false))
+console.log ((100).toString())
+
+//Явное преобразование Boolean
+console.log (Boolean(1))
+console.log (Boolean(""))
+console.log (Boolean("true"))
+console.log (!!22)
+console.log (!true)
